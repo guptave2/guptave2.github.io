@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid #0eadd0; 
   border-radius: 50% !important;
 }
 
@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #2106d1;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -116,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #00796b;
+  color: #2106d1;
   background-color: white;
 }
 /* main body */
@@ -140,7 +140,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #1140a4;
 }
 
 /* main blockqoute */
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #045387 repeat;
   position: relative;
 }
 
@@ -548,8 +548,10 @@ small {
 
 /* main .teal-text */
 
+/* For icons on the navigation bar */
+
 .teal-text {
-  color: #008073 !important;
+  color: #0eadd0 !important;
 }
 
 /* .teal-text {
@@ -558,8 +560,10 @@ small {
 
 /* .teal */
 
+/* For main blocks showing sections */
+
 .teal {
-  background-color: #008073 !important;
+  background-color: #0eadd0 !important;
 }
 
 /* .teal {
