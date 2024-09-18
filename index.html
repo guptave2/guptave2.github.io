@@ -470,9 +470,9 @@ of each drug container to estimate the degradation of the drug.
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text teal">Projects</h3>
       <div class="container">
-        <div class="row">
+        <div class="row" id = "recent-projects">
 
-          <div class="col s12 m6 l4">
+          <!-- <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Geographic Information System Application" src="/assets/img/mapperMax.png" style="height: 100%; width: 100%" class="activator" />
@@ -485,26 +485,26 @@ of each drug container to estimate the degradation of the drug.
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+
+
+
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Tools:</b> C++, GTK, Git, CSS</li>
                   <li>Gained development experience in a dynamic environment: explored graphic libraries such as EZGL and GTK widgets using the OpenStreetMap database to extract and render information on the map.</li>
                   <li>Implemented path-finding algorithms such as Dijkstra’s and A* to find efficient map routes.</li>
-                  <!-- <li> Implemented features such as a search bar with an auto-complete feature, subway paths using OSM data, displaying paths and printing directions upon receiving input.</li> -->
-   
+
+
+
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit " href="https://www.youtube.com/watch?v=M7EtkRizJ_g" target="_blank" data-position="top"
                     data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a>
-                  <!-- <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a> -->
+
+
                 </div>
               </div>
             </div>
@@ -523,13 +523,15 @@ of each drug container to estimate the degradation of the drug.
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+
+
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Tools:</b> Python, NumPy, PyTorch, Matplotlib, Spotify API, Neural Networks</li>
-                  <!-- <li>Predicts a song’s likelihood of landing on the Billboard Hot 100 by analyzing the last 5 years of the chart’s historical data.</li> -->
+
+
+
                   <li>An mp3 audio file from the data set is transformed into a visual mel-spectrogram. This is used as the input to RNN and CNN architectures working in parallel to finally combine the output to a binary yes/no as the answer to the hit song classification problem.</li>
 
                 </ul>
@@ -545,7 +547,7 @@ of each drug container to estimate the degradation of the drug.
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- 1. Django Project -->
           <!-- <div class="col s12 m6 l6">
@@ -770,6 +772,16 @@ of each drug container to estimate the degradation of the drug.
 
           <!-- ************* -->
         </div>
+
+        <!-- Used ChatGPT for button. Asked GPT how I can create a load more button. -->
+         <!-- Used on 17th September, 2024 -->
+
+
+        <div class="row">
+          <button id="load-more" class="btn waves-effect waves-light blue" style="display: none;">Load More</button>
+      </div>
+
+
       </div>
     </section>
 
@@ -1088,6 +1100,9 @@ of each drug container to estimate the degradation of the drug.
       })
     })
   </script>
+
+  <script src="/assets/projectLoading.js"></script>
+
 </body>
 
 </html>
